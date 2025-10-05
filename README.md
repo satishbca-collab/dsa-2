@@ -11,3 +11,9 @@
 1. https://www.geeksforgeeks.org/problems/modular-exponentiation-for-large-numbers5537/1
 1. https://www.geeksforgeeks.org/problems/palindrome-string0817/1?ref=bosscoder-academy-2.ghost.io
 1. https://leetcode.com/problems/permutations/description/
+
+## Backtracking
+1. https://leetcode.com/problems/combination-sum/description/
+1. https://leetcode.com/problems/n-queens/
+1. https://www.geeksforgeeks.org/problems/gray-code-1611215248/1
+1. https://leetcode.com/problems/generate-parentheses/description
