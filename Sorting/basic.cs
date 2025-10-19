@@ -74,6 +74,99 @@ public class Solution {
         return nums;
     }
 
+    #region MergeSort
+    private int[] mergesort(int[] nums){
+        int n = nums.Length;
+        MergeSortHelper(nums, 0, n - 1);
+        return nums;
+    }
+
+    private void MergeSortHelper(int[] nums, int low, int high){
+        if(low >= high){
+            return;
+        }
+
+        int mid = low + (high - low)/2;
+
+        MergeSortHelper(nums, low, mid);
+        MergeSortHelper(nums, mid + 1, high);
+        Merge(nums, low, mid, high);
+    }
+
+    private void Merge(int[] nums, int low, int mid, int high){
+        int m = mid - low + 1, n = high - mid;
+
+        var left = new int[m];
+        var right = new int[n];
+
+        for(int i = 0; i < m; i++){
+            left[i] = nums[low + i];
+        }
+
+        for(int i = 0; i < n; i++){
+            right[i] = nums[mid + 1 + i];
+        }
+
+        int k = low, l = 0, r = 0;
+
+        while(l < m && r < n){
+            if(left[l] < right[r]){
+                nums[k++] = left[l++];
+            }
+            else {
+                nums[k++] = right[r++];
+            }
+        }
+
+        while(l < m){
+            nums[k++] = left[l++];
+        }
+
+        while(r < n){
+            nums[k++] = right[r++];
+        }
+    }
+    #endregion
+
+    #region QuickSort
+    private int[] quicksort(int[] nums){
+        int n = nums.Length;
+        QuickSortHelper(nums, 0, n - 1);
+        return nums;
+    }
+
+    private void QuickSortHelper(int[] nums, int left, int right){
+        if(left >= right) return;
+        int p = Partition(nums, left, right);
+        QuickSortHelper(nums, left, p - 1);
+        QuickSortHelper(nums, p + 1, right);
+    }
+
+    private int Partition(int[] nums, int left, int right){
+        int p = nums[right];
+        int i = left, j = right - 1;
+
+        while(i <= j){
+            while(i <= j && nums[i] < p){
+                i++;
+            }
+            while(i <= j && nums[j] > p){
+                j--;
+            }
+
+            if(i <= j){
+                swap(nums, i, j);
+                i++;
+                j--;
+            }
+        }
+
+        swap(nums, i, right);
+
+        return i;
+    }
+    #endregion
+
     private void swap(int[] nums, int i, int j){
         int temp = nums[i];
         nums[i] = nums[j];

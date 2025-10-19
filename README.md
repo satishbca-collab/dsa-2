@@ -30,3 +30,7 @@
 
 ## Sorting
 1. https://leetcode.com/problems/sort-an-array/description/
+1. https://leetcode.com/problems/two-sum/description/
+1. https://leetcode.com/problems/k-diff-pairs-in-an-array/description/?ref=bosscoder-academy-2.ghost.io
+1. https://leetcode.com/problems/trapping-rain-water/description/
+1. https://www.geeksforgeeks.org/problems/find-all-pairs-whose-sum-is-x5808/1
