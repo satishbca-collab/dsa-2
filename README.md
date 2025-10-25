@@ -16,7 +16,7 @@
 ## Recursion
 1. https://www.geeksforgeeks.org/dsa/product-2-numbers-using-recursion/
 1. https://www.geeksforgeeks.org/problems/modular-exponentiation-for-large-numbers5537/1
-1. https://www.geeksforgeeks.org/problems/palindrome-string0817/1?ref=bosscoder-academy-2.ghost.io
+1. https://www.geeksforgeeks.org/problems/palindrome-string0817/1
 1. https://leetcode.com/problems/permutations/description/
 ### IL
 1. https://leetcode.com/problems/subsets/
@@ -31,6 +31,12 @@
 ## Sorting
 1. https://leetcode.com/problems/sort-an-array/description/
 1. https://leetcode.com/problems/two-sum/description/
-1. https://leetcode.com/problems/k-diff-pairs-in-an-array/description/?ref=bosscoder-academy-2.ghost.io
+1. https://leetcode.com/problems/k-diff-pairs-in-an-array/description/
 1. https://leetcode.com/problems/trapping-rain-water/description/
 1. https://www.geeksforgeeks.org/problems/find-all-pairs-whose-sum-is-x5808/1
+
+## Hashing
+1. https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1
+1. https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1
+1. https://www.geeksforgeeks.org/problems/consecutive-array-elements2711/1
+1. https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
